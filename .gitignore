@@ -1,0 +1,8 @@
+.venv/
+_build/
+.jupyter_cache/
+.ipynb_checkpoints/
+node_modules/
+
+# Local reference material; do not publish the textbook PDF.
+Lay et al. - 2022 - Linear algebra and its applications.pdf

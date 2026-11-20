@@ -1,0 +1,20 @@
+version: 1
+
+project:
+  title: 线性代数学习笔记
+  description: 从个人笔记整理而成的线性代数学习记录
+  keywords:
+    - 线性代数
+    - 线性方程
+    - 矩阵
+    - 线性变换
+  github: https://github.com/ZiyangQu/Learning
+  toc:
+    - file: index.md
+    - title: 学习笔记
+      children:
+        - file: chapters/linear-algebra.md
+
+site:
+  template: book-theme
+  title: 线性代数学习笔记
