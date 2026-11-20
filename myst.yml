@@ -4,16 +4,7 @@ project:
   title: linear.txt
   github: https://github.com/ZiyangQu/Learning
   toc:
-    - file: index.md
-    - file: sections/1-2.md
-    - file: sections/1-3.md
-    - file: sections/1-4.md
-    - file: sections/1-5.md
-    - file: sections/1-6.md
-    - file: sections/1-7.md
-    - file: sections/1-8.md
-    - file: sections/1-9.md
-    - file: sections/1-10.md
+    - file: section.md
 
 site:
   template: book-theme
