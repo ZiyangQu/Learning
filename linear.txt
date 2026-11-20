@@ -1,6 +1,6 @@
 1.1 线性方程
 1 新感悟:
-linear system equivalent （等价的含义）
+linear system equivalent （等价的含义） 
 例如：初等行变换（PAQ，要求P、Q有逆）
 2 关于解的情况solution:
 A system of linear equations has

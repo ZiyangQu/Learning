@@ -1,20 +1,18 @@
----
-title: 线性代数学习笔记
----
+# 1.1 线性方程
 
-# 线性代数学习笔记
+## 1 新感悟:
 
-这本 Jupyter Book 由我的 `linear.txt` 学习记录整理而成，目前主要覆盖线性方程、矩阵方程、解空间、线性无关与线性变换等基础内容。
+linear system equivalent （等价的含义） 
 
-## 阅读说明
+例如：初等行变换（PAQ，要求P、Q有逆）
 
-- 数学表达式已统一为 LaTeX 格式。
-- 中英文术语并列保留，方便与英文教材对照。
-- 原笔记中容易产生歧义的地方补充了必要条件或更准确的表述。
-- “待补充”表示尚未写完的学习主题，后续可以继续扩展。
+## 2 关于解的情况solution:
 
-```{note}
-本书是个人学习笔记，用于梳理概念和复习，不替代教材中的完整定义、证明与例题。
-```
+A system of linear equations has
 
-从[第 1 章：线性方程与线性变换](./chapters/linear-algebra.md)开始阅读。
+1. no solution, or
+2. exactly one solution, or
+3. infinitely many solutions.
+
+A system of linear equations is said to be consistent if it has either one solution or
+infinitely many solutions; a system is inconsistent if it has no solution

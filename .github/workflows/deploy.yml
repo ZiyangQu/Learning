@@ -4,8 +4,6 @@
 name: Deploy Jupyter Book
 
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 env:
@@ -30,8 +28,6 @@ jobs:
       - uses: actions/checkout@v7
       - name: Setup Pages
         uses: actions/configure-pages@v6
-        with:
-          enablement: true
       - uses: actions/setup-node@v7
         with:
           node-version: 24.x
